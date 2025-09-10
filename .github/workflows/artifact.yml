@@ -25,10 +25,11 @@ jobs:
     - name: Download hello.txt
       uses: actions/download-artifact@v5
       with:
-        name: hello-artifact
+        name: 
         path: ./artifacts
     
     - name: viewfile
       run: cat ./artifacts/hello.txt    
+
 
 
